@@ -3,41 +3,67 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
+* {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-repeat: repeat-x;
-  background-image: url(../images/bgtile.png);
-  /* overflow:hidden; */
 }
-/* .body-color{
-  background-image: linear-gradient( to top, white 51%, #1c5380 35% );
-  background-repeat: no-repeat;
-} */
-/* #container{
-  border: 1px solid blue;
-} */
-.button1 {
-  border-radius: 1px; 
-  background-color: #1c5380;
-  font: Arial, Helvetica, sans-serif;
-  height: 70%;
- }
-h2{
+.background {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+.container {
+  display: flex;
+}
+button {
+  background-color: #4C7296;
+  border-radius: 2px;
+  border-color: #4C7296;
+  border-radius: 8%;
+  border-style: solid;
+  color: #E1F6FE;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 15px 60px 20px 60px;
+  box-shadow: 1px 1px  #06365f;
+  width: 100px;
+}
+.img-button {
+  margin-right: 8px;
+}
+#phone{
+  position: absolute;
+  top: 110px;
+  right: 870px;
+}
+#instagram {
+  position: relative;
+  top: 100px;
+}
+h2 {
   color: #06365f;
-  width: 250px;
+  font-size: 20px;
+  width: 210px;
+  font-weight: 900;
 }
 p {
   color:rgba(92, 92, 92, 1);
+  font-size: 15px;
+  align-content: space-between;
 }
-.p{
+.p {
   margin: 0 0 45px 0;
 }
-p.thick {
+b.thick {
   font-weight: bold;
   color: black;
+}
+#phone{
+  position: absolute;
+  top: 110px;
+  right: 870px;
+}
+#instagram {
+  position: relative;
+  top: 100px;
 }
 .frame {
   background-repeat: no-repeat;
@@ -45,37 +71,30 @@ p.thick {
   top: 110px;
   left: 550px;
 }
-#phone{
-  position: absolute;
-  top: 110px;
-  right: 870px;
-}
-#instagram{
-  position: relative;
-  top: 100px;
-}
-#frame{
+#frame {
   background-image: url(../images/frame.png);
 }
 
-div{
+div {
   padding: 15px 50px 5px 40px;
   width: 400px;
 }
 div img{
   margin-right: 15px;
 }
-#footer,a{
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 200px 0 40px 0;
-  width: 100%;
-  color: #1c5380;
-  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.9em;
+#footer, a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 200px 0 40px 0;
+    width: 90%;
+    color: #1c5380;
+    font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+    font-weight: bolder;
+    padding-right: 20px;
 }
 #footer a:last-child{
-  color:rgba(92, 92, 92, 1);
+  color:rgb(151, 146, 146);
   
 }
